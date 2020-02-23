@@ -149,7 +149,7 @@ I re-ran the Keras model after I used the Up-Sample Minority Class technique (pl
 
 **Random Forest (balanced dataset) Confusion Matrix**
 
-<img src='https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/mod%204%20tumor%20schttps://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Keras%20CM_balanced.png'>
+<img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Keras%20CM_balanced.png'>
 
 ## Conclusions
 
