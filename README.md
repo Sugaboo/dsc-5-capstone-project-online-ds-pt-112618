@@ -45,8 +45,10 @@ Comparing quality against a few features, the red wine categories were in a norm
 
  **Red wine counterplot**
 
-<img src="https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Red%20wine%20countplot.png' alt='Alt text that describes the graphic' title='Red wine counterplot'/>
-          
+<img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Red%20wine%20countplot.png'>
+
+# test 
+
 <img src="https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Citric%20acid%20countplot_red.png" alt="Alt text that describes the graphic" title="Citric acid countplot_red" />
 
 <img src="https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Sulphate%20countplot_red.png" alt="Alt text that describes the graphic" title="Sulphate countplot_red" />
