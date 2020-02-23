@@ -43,7 +43,10 @@ Looking solely at the red wine dataset, it consisted of 8 quality categories.  T
 
 Comparing quality against a few features, the red wine categories were in a normal, distribution. I did not notice any strong relationships with red wine quality and the dependent variables. However, I noticed as citric acid, alcohol and sulphates increase as red wine quality increase.  I did the same for white wine and there really are no clear trends as white wine quality increases. Like red wine, I believe a correlation matrix would better help to understand the relationship between features.
 
-<img src="https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Red%20wine%20countplot.png" alt="Alt text that describes the graphic" title="Red wine counterplot" />
+ **Red wine counterplot**
+
+<img src="http://path/to/img.jpg" alt="Red wine counterplot" title="Title" />
+
 
 <img src="https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Citric%20acid%20countplot_red.png" alt="Alt text that describes the graphic" title="Citric acid countplot_red" />
 
