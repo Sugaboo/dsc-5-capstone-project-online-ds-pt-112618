@@ -12,20 +12,14 @@ How we’ll do this:
 * Look at low, medium, and high quality wines statistical interactions
  
 The capstone has been broken down into multiple Jupyter Notebooks.  The breakdown consists of the following Jupyter Notebooks:
+
 <br>1. EDA - Red and White wine datasets
-
 <br>2. EDA - Merging of Red and White wine datasets
-
 <br>3. Statistical Analysis - Red and White wine datasets 
-
 <br>4. Machine Learning - Merged dataset 
-
 <br>4a. Machine Learning - Balance Merged dataset
-
 <br>5. Deep Learning - Merged dataset
-
 <br>5a. Deep Learning - Balance Merged dataset
-
 
 ## Problem Statement
 
