@@ -39,7 +39,7 @@ There were twelve features (or columns) and the dataset between the two are imba
 
 Looking solely at the red wine dataset, it consisted of 8 quality categories.  The quality feature, which was based on sensory data was a score between 0-10.  I was interested primarily in this feature since it would drive my analyses for this capstone project.  Additionally, null values were not present, and both datasets had matching features.  
 
-## 1) Exploratory Data Analysis
+## 1) EDA - Red and White wine datasets
 
 Comparing quality against a few features, the red wine categories were in a normal, distribution. I did not notice any strong relationships with red wine quality and the dependent variables. However, I noticed as citric acid, alcohol and sulphates increase as red wine quality increase.  I did the same for white wine and there really are no clear trends as white wine quality increases. Like red wine, I believe a correlation matrix would better help to understand the relationship between features.
 
