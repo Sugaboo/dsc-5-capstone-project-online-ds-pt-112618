@@ -47,15 +47,23 @@ Comparing quality against a few features, the red wine categories were in a norm
 
 <img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Red%20wine%20countplot.png'>
 
-# test 
+**Citric acid countplot_red**
 
 <img src="https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Citric%20acid%20countplot_red.png" alt="Alt text that describes the graphic" title="Citric acid countplot_red" />
 
+**Sulphate countplot_red**
+
 <img src="https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Sulphate%20countplot_red.png" alt="Alt text that describes the graphic" title="Sulphate countplot_red" />
+
+**White wine countplot**
 
 <img src="https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/White%20wine%20countplot.png" alt="Alt text that describes the graphic" title="White wine countplot" />
 
+**Citric acid countplot_white**
+
 <img src="https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Citric%20acid%20countplot_white.png" alt="Alt text that describes the graphic" title="Citric acid countplot_white" />
+
+**Sulphate countplot_white**
 
 <img src="https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Sulphate%20countplot_white.png" alt="Alt text that describes the graphic" title="Sulphate countplot_white" />
 
@@ -68,9 +76,11 @@ The highlights from descriptive statistic of wine quality class were the followi
 I compared dependent features to the independent feature (quality).  For instance, looking at fixed acidity against quality showed a fairly symmetric distribution with a long tail. The box plots showed medians for many quality categories are almost similar, along with multiple.  Overall, many features had a normal distribution which was skewed to the right and box plots of each varied.  
 
 **Fixed acidity distplot**
+
 <img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Fixed%20acidity%20distplot.png'>
 
 **Fixed acidity boxplot**
+
 <img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Fixed%20acidity%20boxplot.png'>
 
 Moving onto the wine quality and wine quality classes correlation and pairplot in Seaborn, some of the following trends were observed with wine quality: 
@@ -83,15 +93,19 @@ Moving onto the wine quality and wine quality classes correlation and pairplot i
 Multiple types of statistics were run in Jupyter Notebook.  For instance, density has a relatively high negative correlation with alcohol.  Moreover, total sulfur dioxide and residual sugar content seem to be much higher in white wines than in red wines.
 
 **Residual sugar in red wine vs. density**
+
 <img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/PC_red.png'>
 
 **Residual sugar in white wine vs. density**
+
 <img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/PC_white.png'>
 
 **Alcohol percentage in red wine quality**
+
 <img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/OH_red.png'>
 
 **Alcohol percentage in white wine quality**
+
 <img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/OH_white.png'>
 
 ## 4) Machine Learning - Merged dataset
@@ -103,7 +117,8 @@ Using an 80/20 train/test split, I focused on classification primarily for my pr
 * SVM: 94%
 * Decision Tree: 96%
 
-**Random Forest Confusion Matrix**
+**Random Forest (unbalanced dataset) Confusion Matrix**
+
 <img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Random%20Forest%20confusion%20matrix.PNG'>
 
 ## 4a) Machine Learning - Balance Merged dataset
@@ -114,11 +129,15 @@ Using the Up-Sample Minority Class technique to balance my data (documentation o
 
 Again Random Forest performed the highest at 99%. This time I feel confident this is an accurate result, since the dataset was balanced.
 
+**Random Forest (balanced dataset) Confusion Matrix**
+
 <img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Random%20Forest%20CM_balanced.png'>
 
 ## 5) Deep Learning - Merged dataset
 
 I decided to use Keras for modeling my data.  After setting up the training and testing data (i.e. - compiling the metrics), I ran the model. The final output showed the model had 99% accuracy. So, it performed as well as the Random Forest machine learning model.
+
+**Random Forest (unbalanced dataset) Confusion Matrix**
 
 <img src='https://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Keras%20confusion%20matrix.PNG'>
 
@@ -127,6 +146,8 @@ However, similarly to the Machine Learning models, my dataset was unbalanced.  T
 ## 5a) Deep Learning - Balance Merged dataset
 
 I re-ran the Keras model after I used the Up-Sample Minority Class technique (please see documenation found in Jupter Notebook 4a). I ended up with a 98% level of accruacy!  Thus it performed around the same percentage as the unbalanced dataset.  However, since this analysis was done with a balanced dataset, I strongly believe this result.
+
+**Random Forest (balanced dataset) Confusion Matrix**
 
 <img src='https://github.com/Sugaboo/dsc-4-final-project-online-ds-pt-112618/blob/master/mod%204%20tumor%20schttps://github.com/Sugaboo/dsc-5-capstone-project-online-ds-pt-112618/blob/master/Keras%20CM_balanced.png'>
 
